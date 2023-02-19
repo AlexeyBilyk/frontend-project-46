@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/AlexeyBilyk/frontend-project-46#readme",
   "dependencies": {
-    "commander": "^9.5.0"
+    "commander": "^9.5.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21"
   },
   "type": "module",
   "bin": {
