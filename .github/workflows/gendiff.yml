@@ -48,7 +48,7 @@ jobs:
   #   strategy:
   #     # Node versions list
   #     matrix:
-  #       node-version: [14.x]
+  #       node-version: [18.x]
   #   steps:
   #     - name: Test & publish code coverage
   #       uses: paambaati/codeclimate-action@v3.0.0
