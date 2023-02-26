@@ -13,10 +13,10 @@ This is utility that determines the difference between two data structures. A si
 
 ### Install
 
-$ git clone git@github.com:AlexeyBilyk/frontend-project-46.git
-$ cd frontend-project-46
-$ make install
-$ npm link
+- $ git clone git@github.com:AlexeyBilyk/frontend-project-46.git
+- $ cd frontend-project-46
+- $ make install
+- $ npm link
 
 ### Compare flat .json files
 [![asciicast](https://asciinema.org/a/SItcwEP9O4Y4HeoG06Lpm6Nco.svg)](https://asciinema.org/a/SItcwEP9O4Y4HeoG06Lpm6Nco)
