@@ -16,9 +16,8 @@ const genDiff = (filepath1, filepath2, format = 'stylish') => {
   const data2 = readData(filepath2);
   const firstData = parseData(data1, type1);
   const secondData = parseData(data2, type2);
-  const result = getDiffTree(firstData, secondData);
-  const formattedResult = formatData(result, format);
-  return formattedResult;
+  const difftree = getDiffTree(firstData, secondData);
+  return formatData(difftree, format);
 };
 
 export default genDiff;

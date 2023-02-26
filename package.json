@@ -1,8 +1,8 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/AlexeyBilyk/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/AlexeyBilyk/frontend-project-46/actions)",
-  "main": "src/index.js",
+  "description": "program that determines the difference between two data structures",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },

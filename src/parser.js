@@ -1,13 +1,16 @@
 import * as yaml from 'js-yaml';
 
 const parseData = (data, type) => {
-  if (type === 'json') {
-    return JSON.parse(data);
+  switch (type) {
+    case 'json':
+      return JSON.parse(data);
+    case 'yaml':
+      return yaml.load(data);
+    case 'yml':
+      return yaml.load(data);
+    default:
+      throw new Error(`Unknown data type: ${type}`);
   }
-  if (type === 'yaml' || type === 'yml') {
-    return yaml.load(data);
-  }
-  throw Error(`Unknown format: ${type}!`);
 };
 
 export default parseData;
